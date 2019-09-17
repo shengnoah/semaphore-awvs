@@ -22,22 +22,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 mkvirtualenv py27 -p /usr/bin/python
 workon py27
 
-# 安装Django框架
-pip install django==1.11.15
-
-# 安装Django REST
-pip install djangorestframework==3.8.2
-
-# 安装Django RPC
-git clone git://github.com/samuraisam/django-json-rpc.git
-cd django-json-rpc
-python setup.py install
-
-# 安装基础HTTP库
-pip install reqeusts
-
-# 安装pytest库
-pip install pytest
+# 安装依赖包
+pip2 install -r requirements.txt
 ```
 
 # 2.创建Django工程

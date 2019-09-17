@@ -1,0 +1,5 @@
+django==1.11.15
+djangorestframework==3.8.2
+django-json-rpc
+requests
+pytest<5
